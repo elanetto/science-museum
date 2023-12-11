@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/jura');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --blue: #315FA4;
+}
+
+h1 {
+    font-family: 'Jura', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Barlow', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 1rem;
+}
+
+.science-museum-logo {
+    height: 2.5rem;
+}
+
+/* DROPDOWN MENU */
+
+.drop-btn {
+    background-color: black;
+    color: white;
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 125px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 1rem;
+    padding-right: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--blue);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .drop-btn {
+    background-color: black;
+} 
+
+/* HERO */
+
+.hero-img {
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+}
+
+.hero-text {
+    padding: 1rem;
+}
+
+.hero-text p {
+    padding-top: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+display: flex;
+flex-direction: row;
+background-color: brown;
+}
