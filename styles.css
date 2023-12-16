@@ -30,6 +30,8 @@ h1, h2, h3 {
 body {
     min-height: 100vh;
     font-family: 'Barlow', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -334,7 +336,7 @@ header {
     width: 3.5rem;
 }
 
-.confirm-btn {
+.confirm-btn, .event-btn {
     width: 100%;
 }
 
@@ -350,14 +352,36 @@ header {
     color: var(--ashgray);
 }
 
+/* Confirmed order */
+
+.confirmed-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.order-check {
+    font-size: 8rem;
+    color: darkseagreen;
+}
+
 /* FOOTER */
+
+main {
+    margin-bottom: 3rem;
+}
 
 footer {
 display: flex;
 flex-direction: row;
 background-color: black;
 color: white;
-margin-top: 3rem;
+margin-top: auto;
+bottom: 0;
+width: 100%;
 }
 
 footer a {
