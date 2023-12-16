@@ -241,6 +241,11 @@ header {
     flex-direction: column;
 }
 
+.booking a {
+    color: white;
+    text-decoration: none;
+}
+
 .booking-box {
     display: flex;
     width: 100%;
@@ -262,7 +267,7 @@ header {
     cursor: pointer;
 }
 
-.edit:hover {
+.edit:hover, a:hover {
     color: var(--lightblue);
 }
 
@@ -291,8 +296,17 @@ header {
     position: absolute;
     margin: 4rem;
     background-color: var(--ashgray);
-    height: 70%;
+    height: 75%;
     width: 70%;
+}
+
+.module-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.module-box a:hover {
+    color: var(--lightblue);
 }
 
 .book-boxes-module {
@@ -312,6 +326,28 @@ header {
 
 .x-out:hover {
     color: var(--blue);
+}
+
+.minus-plus {
+    display: flex;
+    justify-content: space-between;
+    width: 3.5rem;
+}
+
+.confirm-btn {
+    width: 100%;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: var(--lightblue);
+}
+
+.none {
+    color: var(--ashgray);
 }
 
 /* FOOTER */
