@@ -234,6 +234,47 @@ header {
     background-color: white;
 }
 
+/* BOOKING */
+
+.booking {
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #36454F;
+    color: white;
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.sum {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.edit {
+    cursor: pointer;
+}
+
+.edit:hover {
+    color: var(--lightblue);
+}
+
+.ordering-icon-and-text {
+    display: flex;
+    gap: 1rem;
+}
+
+.h2-booking {
+    margin-bottom: 1rem;
+}
+
 /* FOOTER */
 
 footer {
