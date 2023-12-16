@@ -34,7 +34,7 @@ body {
 
 a {
     text-decoration: none;
-}
+  }
 
 /* HEADER */
 
@@ -273,6 +273,45 @@ header {
 
 .h2-booking {
     margin-bottom: 1rem;
+}
+
+/* Module box */
+
+.dark-layer-behind-module-box {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--charcoal);
+    opacity: 80%;
+    position: fixed;
+    z-index: 20;
+}
+
+.module-box {
+    z-index: 21;
+    position: absolute;
+    margin: 4rem;
+    background-color: var(--ashgray);
+    height: 70%;
+    width: 70%;
+}
+
+.book-boxes-module {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.module-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.x-out {
+    cursor: pointer;
+}
+
+.x-out:hover {
+    color: var(--blue);
 }
 
 /* FOOTER */
