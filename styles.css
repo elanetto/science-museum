@@ -313,10 +313,11 @@ header {
 .module-box {
     z-index: 21;
     position: fixed;
-    margin: 4rem;
+    margin: 1rem;
     background-color: var(--ashgray);
     height: 70%;
     width: 70%;
+    top: 3rem;
 }
 
 .tickets-module {
