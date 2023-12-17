@@ -472,6 +472,7 @@ footer a {
     .article {
         width: 50vw;
         background-color: lightgrey;
+        margin-bottom: 1rem;
     }
 
     .article-img, .event-img {
