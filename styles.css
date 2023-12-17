@@ -315,13 +315,9 @@ header {
     position: fixed;
     margin: 1rem;
     background-color: var(--ashgray);
-    height: 70%;
-    width: 70%;
-    top: 3rem;
-}
-
-.tickets-module {
     height: 600px;
+    min-width: 290px;
+    top: 2rem;
 }
 
 .module-box a {
@@ -334,8 +330,8 @@ header {
 }
 
 .book-boxes-module {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .module-title {
@@ -423,8 +419,39 @@ footer a {
     color: var(--blue);
 }
 
-/* Medium */
+/* Medium-minus */
+@media (min-width: 375px) {
+
+    .module-box {
+        height: 600px;
+        min-width: 320px;
+        top: 2rem;
+        left: 1rem;
+    }
+
+}
+
+/* Medium-medium */
+@media (min-width: 425px) {
+
+    .module-box {
+        height: 600px;
+        min-width: 350px;
+        top: 2rem;
+        left: 1rem;
+    }
+
+}
+
+/* Medium-plus */
 @media (min-width: 450px) {
+
+    .module-box {
+        height: 600px;
+        min-width: 70%;
+        top: 2rem;
+        left: 5rem;
+    }
 
     .flex-article-texts {
         display: flex;
@@ -434,11 +461,17 @@ footer a {
         gap: 2rem;
     }
 
-
 }
 
-/* Large */
+/* Large (desktop) */
 @media (min-width: 1024px) {
+
+    .module-box {
+        max-height: 600px;
+        min-width: 500px;
+        top: 2rem;
+        left: 10rem;
+    }
 
     main {
         margin-left: 10rem;
