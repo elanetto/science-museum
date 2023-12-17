@@ -40,6 +40,10 @@ a {
 
 /* HEADER */
 
+.desktop-menu {
+    display: none;
+}
+
 header {
     display: flex;
     background-color: black;
@@ -122,9 +126,9 @@ header {
 /* LIGHTNING ANIMATION */
 
 .lightning-effect {
-    display: flex;
     height: 50%;
     width: 100%;
+    object-fit: cover;
     z-index: 2;
     position: absolute;
     /* animation-name: lightning;
@@ -282,6 +286,10 @@ header {
     margin-bottom: 1rem;
 }
 
+.about-event {
+    background-color: white;
+}
+
 /* Module box */
 
 .dark-layer-behind-module-box {
@@ -404,16 +412,42 @@ footer a {
 /* Medium */
 @media (min-width: 768px) {
 
-    .hero-img {
-        object-fit: cover;
-        width: 100%;
-        height: 50vh;
-    }
-
 
 }
 
 /* Large */
 @media (min-width: 1024px) {
+
+    main {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    header, footer {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .desktop-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        align-items: center;
+        color: white;
+        padding-right: 2rem;
+        font-family: 'Jura', sans-serif;
+        font-size: 1.2rem;
+    }
+    .desktop-menu a {
+        color: white;
+    }
+
+    .desktop-menu a:hover {
+        color: var(--lightblue);
+    }
 
 }
