@@ -121,12 +121,13 @@ header {
 .hero {
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 /* LIGHTNING ANIMATION */
 
 .lightning-effect {
-    height: 50%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     z-index: 2;
@@ -410,7 +411,15 @@ footer a {
 }
 
 /* Medium */
-@media (min-width: 768px) {
+@media (min-width: 450px) {
+
+    .flex-article-texts {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        gap: 2rem;
+    }
 
 
 }
@@ -449,5 +458,42 @@ footer a {
     .desktop-menu a:hover {
         color: var(--lightblue);
     }
+
+    .article-boxes {
+        display: flex;
+        gap: 2rem;
+        align-content: space-around;
+    }
+
+    .article {
+        width: 50vw;
+        background-color: lightgrey;
+    }
+
+    .article-img, .event-img {
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .event-boxes-div {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .event-box {
+        width: 40vw;
+    }
+
+    .booking-box-div {
+        display: flex;
+        gap: 2rem;
+    }
+    
+}
+
+/* Extra Large */
+@media (min-width: 1200px) {
+
 
 }
