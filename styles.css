@@ -12,6 +12,7 @@
     --charcoal: #36454F;
     --ashgray: #B2BEB5;
     --warmgray: #3E3E3E;
+    --bg-box: #D9D9D9;
 }
 
 h1, h2, h3 {
@@ -519,7 +520,7 @@ footer a {
 
     .article {
         width: 50vw;
-        background-color: lightgrey;
+        background-color: var(--bg-box);
         margin-bottom: 1rem;
     }
 
