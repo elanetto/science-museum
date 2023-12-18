@@ -242,6 +242,10 @@ header {
     background-color: white;
 }
 
+.guided-tour-btn, .event-btn {
+    max-width: 100px;
+}
+
 /* BOOKING */
 
 .booking {
@@ -425,6 +429,15 @@ footer a {
         top: 2rem;
         left: 1rem;
     }
+
+    .event-btn {
+        max-width: 100%;
+    }
+
+    .guided-tour-btn {
+        max-width: 100px;
+    }
+
 }
 
 /* Medium-medium */
@@ -435,6 +448,10 @@ footer a {
         min-width: 350px;
         top: 2rem;
         left: 1rem;
+    }
+
+    .guided-tour-btn {
+        max-width: 100%;
     }
 }
 
@@ -527,9 +544,21 @@ footer a {
         width: 40vw;
     }
 
+    .guided-tour-btn, .event-btn {
+        max-width: 100px;
+    }
+
     .booking-box-div {
         display: flex;
         gap: 2rem;
         justify-content: flex-start;
+    }
+}
+
+/* Large (desktop) */
+@media (min-width: 1200px) {
+
+    .guided-tour-btn, .event-btn {
+        max-width: 100%;
     }
 }
