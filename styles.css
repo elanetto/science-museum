@@ -150,7 +150,6 @@ header {
     object-fit: cover;
     z-index: 2;
     position: absolute;
-    transition: all 2000ms ease-out;
     transition: 1s, 1s, 1000ms ease-in-out;
 }
 
