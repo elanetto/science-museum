@@ -44,6 +44,10 @@ a {
     text-decoration: underline;
 }
 
+.dropdown-active {
+    background-color: var(--charcoal);
+}
+
 /* HEADER */
 
 .desktop-menu {
@@ -146,10 +150,6 @@ header {
     object-fit: cover;
     z-index: 2;
     position: absolute;
-    /* animation-name: lightning;
-    animation-duration: 1s;
-    animation-timing-function: revert;
-    animation-iteration-count: infinite; */
     transition: all 2000ms ease-out;
     transition: 1s, 1s, 1000ms ease-in-out;
 }
@@ -159,15 +159,6 @@ header {
     opacity: 0.5;
     transition: all 2000ms ease-out;
     transition: 1s, 1s, 1000ms ease-in-out;
-}
-
-@keyframes lightning {
-    from { 
-        opacity: 0;
-    }
-    to {
-        opacity: 0.5;
-    }
 }
 
 /* MAIN */
@@ -434,7 +425,6 @@ footer a {
         top: 2rem;
         left: 1rem;
     }
-
 }
 
 /* Medium-medium */
@@ -446,7 +436,6 @@ footer a {
         top: 2rem;
         left: 1rem;
     }
-
 }
 
 /* Medium-plus */
@@ -466,7 +455,6 @@ footer a {
         padding-right: 2rem;
         gap: 2rem;
     }
-
 }
 
 /* Large (desktop) */
@@ -474,9 +462,9 @@ footer a {
 
     .module-box {
         max-height: 600px;
-        min-width: 500px;
+        min-width: 600px;
         top: 2rem;
-        left: 10rem;
+        left: 20rem;
     }
 
     main {
@@ -544,11 +532,4 @@ footer a {
         gap: 2rem;
         justify-content: flex-start;
     }
-    
-}
-
-/* Extra Large */
-@media (min-width: 1200px) {
-
-
 }
