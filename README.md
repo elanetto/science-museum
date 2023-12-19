@@ -4,6 +4,9 @@ A project for FrontEnd Dev class at Noroff
 ## Link to Figma:
 To view the Figma-file, please [click here](https://www.figma.com/file/so5C8tp6z0E13xfd2KZNHT/Semester-Project-2023---Science-Museum?type=design&node-id=1%3A2&mode=design&t=CcYBUEdgl0V6DylM-1 )
 
+## Link to deployed project:
+To view the deployed project, please [click here](https://science-museum-nu.vercel.app/)
+
 ## Project Gantt:
 ![screenshot](https://github.com/elanetto/science-museum/blob/main/assets/planning/Anettes_Gantt.png?raw=true)
 
