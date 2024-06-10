@@ -4,7 +4,7 @@
 [GameHub - Deployed project](https://science-museum-nu.vercel.app/)
 
 ## Tools and technology
-My portfolio is built with HTML and CSS, and it was first designed and planned in Figma.
+This project was built with HTML and CSS, and it was first designed and planned in Figma.
 ![image](https://github.com/elanetto/portfolio/blob/main/assets/images/readme/badges-html-figma-css.png?raw=true)
 
 ## Figma
